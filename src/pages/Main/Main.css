@@ -1,49 +1,47 @@
 .main-wrapper {
+  display: flex;
+  margin-top: 0;
   position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6a001;
 }
-.main-buttons-bg-1 {
-  position: absolute;
-  top: 0;
-  right: calc(50% - 10vw);
-  width: 20vw;
-  height: 60vh;
-  background-color: #f3eaa0;
-  transform: rotate(10deg);
-  z-index: -1;
-}
-.main-buttons-bg-2 {
-  position: absolute;
-  top: 0;
-  right: calc(50% - 10vw);
-  width: 20vw;
-  height: 60vh;
-  background-color: #edcd00;
-  transform: rotate(-10deg);
-  z-index: -2;
+.main-buttons-wrapper {
+  background-color: #dfa21e;
+  margin: auto;
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  width: 40vw;
+  height: auto;
+  box-shadow: inset 0 0 20px grey;
+  border-radius: 15px;
 }
 
 .main-buttons {
-  /* transform: rotate(-45deg); */
-  margin: auto;
-  margin-top: 10vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 1vw;
   width: 20vw;
-  height: 20vh;
+  height: auto;
   padding: 15px;
-  border: 1px solid transparent;
   border-radius: 10px;
   padding-top: 100px;
   padding-bottom: 100px;
   z-index: 10;
+  background-color: #ead79f;
+  box-shadow: inset 0 0 20px grey;
 }
+
 .main-btn {
   width: 250px;
   height: 100px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   background-color: white;
   cursor: pointer;
